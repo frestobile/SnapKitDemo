@@ -1,0 +1,38 @@
+PODS:
+  - PINCache (3.0.3):
+    - PINCache/Arc-exception-safe (= 3.0.3)
+    - PINCache/Core (= 3.0.3)
+  - PINCache/Arc-exception-safe (3.0.3):
+    - PINCache/Core
+  - PINCache/Core (3.0.3):
+    - PINOperation (~> 1.2.1)
+  - PINOperation (1.2.1)
+  - SnapSDK/SCSDKBitmojiKit (1.13.0):
+    - PINCache (< 3.1, >= 2.3)
+    - PINOperation (~> 1.2.1)
+    - SnapSDK/SCSDKCoreKit
+  - SnapSDK/SCSDKCoreKit (1.13.0)
+  - SnapSDK/SCSDKCreativeKit (1.13.0):
+    - SnapSDK/SCSDKCoreKit
+  - SnapSDK/SCSDKLoginKit (1.13.0):
+    - SnapSDK/SCSDKCoreKit
+
+DEPENDENCIES:
+  - SnapSDK/SCSDKBitmojiKit
+  - SnapSDK/SCSDKCreativeKit
+  - SnapSDK/SCSDKLoginKit
+
+SPEC REPOS:
+  trunk:
+    - PINCache
+    - PINOperation
+    - SnapSDK
+
+SPEC CHECKSUMS:
+  PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
+  PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
+  SnapSDK: f4f7cf3b2261233e096f8c43706d94e785ca102c
+
+PODFILE CHECKSUM: e99df719e43bf30fd75ad49d4c65399937c8d933
+
+COCOAPODS: 1.10.1
